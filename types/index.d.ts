@@ -6,5 +6,5 @@
  * @param {boolean} debug A flag for enabling debug logging.
  * @returns {GeoRaster} The Leaflet GeoRaster layer.
  */
-declare function parseGeoraster(data: any, metadata: any, debug: boolean): GeoRaster
+declare function parseGeoraster(data: any, metadata?: any, debug?: boolean): GeoRaster
 export default parseGeoraster;
